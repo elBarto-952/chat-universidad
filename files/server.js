@@ -4,7 +4,7 @@ const { Server } = require('socket.io');
 const path = require('path');
 
 // ---- Clave de administrador: cámbiala antes de entregar el trabajo ----
-const ADMIN_PASSWORD = 'universidad2026';
+const ADMIN_PASSWORD = 'miranda/';
 
 const app = express();
 const server = http.createServer(app);
