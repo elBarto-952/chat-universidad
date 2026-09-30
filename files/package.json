@@ -1,0 +1,12 @@
+{
+  "name": "chat-tiempo-real-universidad",
+  "version": "1.0.0",
+  "description": "Chat en tiempo real con panel de administrador (IP de conectados) para actividad de universidad",
+  "main": "server.js",
+  "engines": { "node": "18.x" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
